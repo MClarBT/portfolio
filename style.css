@@ -33,6 +33,7 @@ p {
 
 body {
   background-color: #FFEBCD; /* BlanchedAlmond*/
+  font-color: green;
 }
 
 .nav_bar {
@@ -44,4 +45,13 @@ body {
 .pic-container {
   display: flex;
   justify-content: center;
+}
+
+h3 {
+  color: green;
+  font-weight: bold;
+}
+
+#contact_info > ul > li{
+  color: green;
 }
