@@ -22,6 +22,46 @@ p {
   align-self: center;
 }
 
+/* CSS for the jumbotron at the top*/
+/* .display-4{
+  text-align: center;
+} */
+
+/* .jumbotron-container {
+  background-image: url("http://hollywoodwomensclub.org/wp-content/uploads/2016/09/palm-trees-beach.jpg");
+} */
+
+/* CSS for the greeting container*/
+
+/* .greeting {
+  background-image: url("http://hollywoodwomensclub.org/wp-content/uploads/2016/09/palm-trees-beach.jpg");*/
+  /* width: 100%;
+  height: 50%;
+} */
+
+.jumbotron {
+  background-image: url("http://www.musictruth.com/wp-content/uploads/2016/11/sunset.jpg");
+}
+
+.jumbotron h1, .jumbotron p {
+  text-align: center;
+  color: #F5FFFA; /* mint cream*/
+}
+
+.nav-item {
+  color: #9932CC; /* dark orchid*/
+}
+
+
+
+
+
+
+
+
+
+
+
 #motivating_img {
   width: 300px;
   height: 300px;
@@ -33,8 +73,13 @@ p {
 
 body {
   background-color: #FFEBCD; /* BlanchedAlmond*/
+  /*background-color: white;*/
   font-color: green;
 }
+
+/* .navbar navbar-expand-lg navbar-light bg-light {
+  width: 100%;
+} */
 
 .nav_bar {
   list-style-type: none;
