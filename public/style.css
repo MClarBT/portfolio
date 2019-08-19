@@ -17,27 +17,9 @@ p {
   width: 100px;
   height: 100px;
   display: block;
-  background-color: #DCDCDC; /* Gainsboro, some sort of light gray*/
-  /* grid-column: 1; */
+  background-color: #DCDCDC; 
   align-self: center;
 }
-
-/* CSS for the jumbotron at the top*/
-/* .display-4{
-  text-align: center;
-} */
-
-/* .jumbotron-container {
-  background-image: url("http://hollywoodwomensclub.org/wp-content/uploads/2016/09/palm-trees-beach.jpg");
-} */
-
-/* CSS for the greeting container*/
-
-/* .greeting {
-  background-image: url("http://hollywoodwomensclub.org/wp-content/uploads/2016/09/palm-trees-beach.jpg");*/
-  /* width: 100%;
-  height: 50%;
-} */
 
 .jumbotron {
   background-image: url("http://www.musictruth.com/wp-content/uploads/2016/11/sunset.jpg");
@@ -52,15 +34,10 @@ p {
   color: #9932CC; /* dark orchid*/
 }
 
-
-
-
-
-
-
-
-
-
+.motivating_img_container {
+  display: grid;
+  justify-content: center;
+}
 
 #motivating_img {
   width: 300px;
@@ -95,6 +72,7 @@ body {
 h3 {
   color: green;
   font-weight: bold;
+  font-family: cursive; /* thinking of making the h3's a cursive font... */
 }
 
 #contact_info > ul > li{
